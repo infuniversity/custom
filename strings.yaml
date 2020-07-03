@@ -1,0 +1,27 @@
+branding:
+  name: whoelse.ai Database 
+  org: whoelse.ai
+  orgDomain: whoelse.ai
+  prettyName: whoelse.ai
+  favicon: /assets/images/library.ico
+
+landing:
+  tagline: Make AIs talk to each other!
+  viewAll: View All Docs
+  quickLink: <a href="/get-started">Get started</a>.
+
+footer:
+  helpText: <a href="http://whoelse.ai">whoelse.ai</a>.
+  defaultEmail: team@whoelse.ai
+
+search:
+  placeholder: What do you want to know?
+  results:
+    none:
+      suggestion: No results found.
+
+# errors
+error:
+  403:
+    message: "<p>Error 403</p>"
+
