@@ -1,79 +1,27 @@
 branding:
-  name: Hub
-  prettyName: Hub
-  org: Hub
-  orgDomain: Hub
-  icon:
-  favicon:
+  name: About Library 
+  org: The New York Times
+  orgDomain: nytimes.com
+  prettyName: About Library
+  favicon: /assets/images/library.ico
 
 landing:
-  tagline:
-    <p><center>Let's make AIs talk to each other!</center></p>
-  quickLink: false
-  modules:
-      tag: team
-      label: Topics
-      style: button
-      tag: featured
-      label: Table of contents
-      style: docs
-
-folder:
-  sectionList:
-    heading: "On this page"
-
-head:
-  meta: !!js/function (data) => `
-    <meta name="robots" content="noindex" />
-    <meta property="og:type" content="article" />\n
-    <meta property="og:title" content="${ data.title || 'whoelse.ai Hub'}" />\n
-    <meta property="og:description" content="whoelse.ai Hub" />\n
-    <meta property="og:image" content="" />\n
-    <meta name="twitter:card" content="summary_large_image" />\n
-    <meta name="twitter:title" value="${ data.title || 'whoelse.ai Hub'}" />\n
-    <meta name="twitter:description" value="" />\n
-    <meta name="twitter:image" content="" />\n
-    <meta name="twitter:image:alt" content="The logo of the whoelse.ai Hub" />\n
-    <meta name="twitter:site" value="@whoelseai" />`
+  tagline: A simple documentation site, built from content in Google Docs.
+  viewAll: View All Docs
+  quickLink: <a href="/get-started">Get started</a>.
 
 footer:
-  helpText: |
-    <div class="cat-container featured-cat-container style-docs">
-      <h3>Contents</h3>
-      <ul class="featured-cat-list">
-        
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/getting-started">Getting Started</a>
-        </li>
-    
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/publications">Publications</a>
-        </li>
-    
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/industry-iniatives">Industry Initiatives</a>
-        </li>
-    
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/advisors">Advisors</a>
-        </li>
-
-        <li>
-          <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/downloads">Downloads</a>
-        </li>
-  
-        <li><a class="button btn-homepage" href="/categories">View All</a></li>
-      </ul>
-    </div>
-    <p class="actual-footer">Twitter: <a href="https://twitter.com/whoelseai">@whoelseai</a> |  Built with <a href="https://github.com/nytimes/library/tree/master/custom">NYTimes Library</a></p>
+  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
+  defaultEmail: test.user@nytimes.com
 
 search:
-  placeholder: Search...
+  placeholder: What do you want to know about Library?
   results:
     none:
-      suggestion: Can't find something you think should be in here? Mail us at <a href="mailto:hub@whoelse.ai">team@whoelse.ai</a>
+      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+
+# errors
+error:
+  403:
+    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
+
