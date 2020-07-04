@@ -41,32 +41,32 @@ head:
 footer:
   helpText: |
     <div class="cat-container featured-cat-container style-docs">
-      <h3>Contents</h3>
+      <h3>Table of contents</h3>
       <ul class="featured-cat-list">
         
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/getting-started">Getting Started</a>
+          <a href="/general-guidance">General guidance</a>
         </li>
     
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/publications">Publications</a>
+          <a href="/taking-care-of-ourselves">Taking care of ourselves</a>
         </li>
     
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/industry-iniatives">Industry Initiatives</a>
+          <a href="/taking-care-of-one-another">Taking care of one another</a>
         </li>
     
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/advisors">Advisors</a>
+          <a href="/recommendations-for-event-planners">Recommendations for event planners</a>
         </li>
 
         <li>
           <i class="fa foldericon fa-file-o" aria-hidden="true"></i>
-          <a href="/downloads">Downloads</a>
+          <a href="/about-the-project">About the project</a>
         </li>
   
         <li><a class="button btn-homepage" href="/categories">View All</a></li>
