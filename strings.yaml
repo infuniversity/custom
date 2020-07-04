@@ -1,27 +1,27 @@
 branding:
-  name: About Library 
-  org: The New York Times
-  orgDomain: nytimes.com
-  prettyName: About Library
+  name: whoelse.ai Library 
+  org: whoelse.ai
+  orgDomain: whoelse.ai
+  prettyName: whoelse.ai Library 
   favicon: /assets/images/library.ico
 
 landing:
-  tagline: A simple documentation site, built from content in Google Docs.
+  tagline: Documents & Downloads
   viewAll: View All Docs
   quickLink: <a href="/get-started">Get started</a>.
 
 footer:
-  helpText: For help contributing or to report a problem, consult <a href="https://github.com/nytimes/library">the Github Page</a>.
-  defaultEmail: test.user@nytimes.com
+  helpText: For more information visit <a href="http://whoelse.ai">whoelse.ai</a>.
+  defaultEmail: team@whoelse.ai
 
 search:
   placeholder: What do you want to know about Library?
   results:
     none:
-      suggestion: To request a new page, submit <a href="https://github.com/nytimes/library">a PR on Github</a>.
+      suggestion: Contact us at <a href="mailto:team@whoelse.ai">team@whoelse.ai</a>.
 
 # errors
 error:
   403:
-    message: "<p>For this documentation site, we've disabled the final step of the Move File workflow. Normally, this request would succeed and you'd be taken to the new url for your page.</p>"
+    message: "<p>File not found</p>"
 
