@@ -1,10 +1,10 @@
 branding:
-  name: WE? Hub
-  prettyName: WE? Hub
-  org: WE? Hub
-  orgDomain: WE? Hub
-  icon: https://whoelse.herokuapp.com/assets/logo.svg
-  favicon: https://whoelse.herokuapp.com/assets/favicon.ico
+  name: Hub
+  prettyName: Hub
+  org: Hub
+  orgDomain: Hub
+  icon: http://raw.githubusercontent.com/infuniversity/custom/master/assets/logo.svg
+  favicon: http://raw.githubusercontent.com/infuniversity/custom/master/assets/favicon.ico
 
 landing:
   tagline:
@@ -28,11 +28,11 @@ head:
     <meta property="og:type" content="article" />\n
     <meta property="og:title" content="${ data.title || 'whoelse.ai Hub'}" />\n
     <meta property="og:description" content="whoelse.ai Hub" />\n
-    <meta property="og:image" content="https://whoelse.herokuapp.com/assets/share-card.png" />\n
+    <meta property="og:image" content="http://raw.githubusercontent.com/infuniversity/custom/master/assets/share-card.png" />\n
     <meta name="twitter:card" content="summary_large_image" />\n
     <meta name="twitter:title" value="${ data.title || 'whoelse.ai Hub'}" />\n
     <meta name="twitter:description" value="" />\n
-    <meta name="twitter:image" content="https://whoelse.herokuapp.com/assets/share-card.png" />\n
+    <meta name="twitter:image" content="http://raw.githubusercontent.com/infuniversity/custom/master/assets/share-card.png" />\n
     <meta name="twitter:image:alt" content="The logo of the whoelse.ai Hub" />\n
     <meta name="twitter:site" value="@whoelseai" />`
 
